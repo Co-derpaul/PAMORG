@@ -1,0 +1,722 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+html,body{
+    scroll-behavior: smooth;
+}
+body{
+    /* background:linear-gradient(100deg,#1d2559,#175cb0); */
+    background:linear-gradient(100deg,#1d2559,#1b7df5);
+    background-attachment: fixed;
+
+}
+nav{
+color:  white;
+justify-self: end;
+
+
+}
+.nav_main{
+    padding-left: 85px;
+    display: flex;
+    justify-content:space-between ;
+    /* border: 2px solid white; */
+}
+.list_div{
+    /* border: 2px solid pink; */
+    padding-right: 90px;
+    
+    
+}
+ul{ 
+    /* justify-content: flex-end;
+    display: flex;
+    text-decoration: none; */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+li{ 
+    /* margin: 20px;
+    margin-right: 35px;
+    text-decoration: none;
+    padding-right: 20px;
+    border-right: 2px solid turquoise;
+    */
+    float: left;
+    /* border-right: 2px solid turquoise; */
+    /* padding-left: 30px; */
+    width: 100px;
+    /* border: 2px solid white; */
+    
+    
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* border-right: 2px solid turquoise; */
+    /* height: 10px; */
+}
+
+li a:hover {
+    background-color: turquoise;
+    transition: 1s;
+    
+    
+}
+
+/* li::marker{
+content: none;
+} */
+.pamorg{
+    padding-top: 8px;
+    /* border: 2px solid red; */
+    width: 50%;
+   
+}
+
+.Pam{
+    /* margin-top: 15px ; */
+    margin-right: 600px;
+    font-size: 35px;
+    border-bottom: 2px solid white; 
+    text-shadow: 1px 1px 1px turquoise;
+    
+}
+.org{
+     border-top: 2px solid white;
+    border-right: none;
+    border-left: none;
+    color: turquoise;
+    text-shadow: 1px 1px 1px white;
+    
+}
+
+.main_container{
+    /* border: 2px solid tomato; */
+    display: flex;
+    height: 30%;
+    margin: 20px;
+    margin-top: 90px;
+    
+}
+.left_container{
+/* border: 2px solid pink; */
+height: 50%;
+width: 50%;
+padding-left: 58px;
+padding-right: 40px;
+margin-right: 10PX;
+/* padding:15px 65px 150px 65px ; */
+/* border-right: 2px solid turquoise; */
+
+}
+.right_container{
+/* border: 2px solid rgb(110, 231, 110); */
+border-left:2px solid turquoise;
+height: 50%;
+width: 40%;
+padding-right: 65px;
+color: white;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 20px;
+margin-top: 5px;
+border-radius: 50px;
+
+}
+
+.my_skills{
+    color: white;
+    border: 2px solid turquoise;
+    border-radius: 50px;
+    width: 120px;
+    height: 5px;
+    padding: 16px 17px 30px 40px;
+    margin-bottom: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.708), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.skill_intro{
+    /* font-family: cursive ; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 20px;
+    margin: 30px 0px 40px 0px;
+
+}
+
+.main_skill{
+/* border: 2px solid tomato; */
+display: flex;
+justify-content: space-between;
+color: white;
+font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+font-size: 30px;
+margin: 50px 0px 40px 0px;
+
+}
+.skill_experience{
+    /* border: 2px solid white; */
+    border-right: 2px solid turquoise;
+    padding-right: 35px;
+    padding-left: 15px;
+    width:170px;
+    border-top: 1px solid turquoise;
+    border-bottom: 1px solid turquoise;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px; */
+    
+
+}
+.skill_experience:hover{
+    background-color: turquoise;
+    color: #1d2559;
+    transition: 1s;
+}
+.skill_project{
+    /* border: 2px solid purple; */
+    border-top: 1px solid turquoise;
+    border-bottom: 1px solid turquoise;
+    padding:20px 5px 20px 10px ;
+    width: 220px;
+    
+    
+}
+.skill_project:hover{
+    background-color: turquoise;
+    color: #1d2559;
+    transition: 1s;
+}
+
+.skill_companies{
+    /* border: 2px solid turquoise; */
+    width: 210px;
+    border-left: 2px solid turquoise;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-top: 1px solid turquoise;
+    border-bottom: 1px solid turquoise;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px; */
+    
+}
+.skill_companies:hover{
+    background-color: turquoise;
+    color: #1d2559;
+    transition: 1s;
+}
+
+
+.html{
+    
+    width: 106%;
+    height: 35px;
+    padding: 20px 15px 20px 15px;
+    
+    
+}
+.html:hover{
+    background-color: turquoise;
+    /* opacity: 0.5; */
+    color: black;
+    border-top-left-radius: 45px;
+    /* font-size: 25px;
+    transition: 5s; */
+}
+.css{
+    width: 106%;
+    height: 35px;
+    padding: 20px 15px 20px 15px;
+}
+.css:hover{
+    background-color: turquoise;
+    color: black;
+}
+.javascript{
+    width: 106%;
+    height: 35px;
+    padding: 20px 15px 20px 15px;
+}
+.javascript:hover{
+    background-color: turquoise;
+    color: black;
+}
+.node_js{
+    width: 106%;
+    height: 35px;
+    padding: 20px 15px 20px 15px;
+}
+.node_js:hover{
+    background-color: turquoise;
+    color: black;
+     
+}
+.ui_ux{
+    width: 106%;
+    height: 35px;
+    padding: 20px 15px 20px 15px;
+    
+}
+.ui_ux:hover{
+    background-color: turquoise;
+    color: black;
+    border-bottom-left-radius: 45px;
+}
+.html>img{
+    height: 32px;
+}
+.html>img:hover{
+    height: 36px;
+    transition: 0.8s;
+}
+.css>img{
+    height: 32px;
+}
+.css>img:hover{
+    height: 36px;
+    transition: 0.8s;
+}
+.javascript>img{
+    height: 32px;
+}
+.javascript>img:hover{
+    height: 36px;
+    transition: 0.8s;
+}
+.node_js>img{
+    height: 32px;
+}
+.node_js>img:hover{
+    height: 36px;
+    transition: 0.8s;
+}
+.ui_ux>img{
+    height: 32px;
+}
+.ui_ux>img:hover{
+    height: 36px;
+    transition: 0.8s;
+}
+
+
+/* ===================responsiveness======================================  */
+
+
+@media only screen and (max-width:1265px) {
+    .nav_main{
+        /* border: 2px solid black; */
+        padding-left: 5px;
+        display: flex;
+        flex-direction: row;
+        
+        
+    }
+    .list_div{
+        /* border: 2px solid turquoise; */
+        padding-right: 63px;
+        display: flex;
+        flex-direction: row;
+        
+        
+        
+        
+    }
+    
+
+    li{ 
+    
+        float: left;
+        width: 100px;
+        /* border: 2px solid white; */
+        width: 63px;
+        height: 40px;
+        font-size: 12px;
+        transition: 2s;
+        
+        
+    }
+    .Pam{
+        /* margin-top: 15px ; */
+        margin-left: 75px;
+        font-size: 30px;
+        border-bottom: 2px solid white; 
+        transition: 2s;
+        
+    }
+    .my_skills{
+        height:0px ;
+        width:120px ;
+        padding: 16px 15px 36px 32px;
+        transition: 2s;
+        
+    }
+    .main_container{
+        /* border: 2px solid tomato; */
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: 2px;
+    }
+   
+    .left_container{
+        /* border: 2px solid pink; */
+        margin-top: 2.5%;
+        transition: 2s;
+        width: 80%;
+        padding-left: 0%;
+        padding-right: 0%;
+        padding-bottom: 20px;
+        margin-left: 70px;
+        margin-bottom: 0%;
+
+    }
+    .right_container{
+        /* border: 2px solid orange; */
+        width: 80%;
+        height: 355px;
+        /* padding-right: 100px; */
+        border-left: 2px solid turquoise;
+        /* border-right: 2px solid turquoise; */
+        /* padding-right: 20px; */
+        padding: 0px 0px 20px 0px  ;
+        margin-left: 70px;
+    }
+    .skill_intro{
+        font-size: 18px;
+        transition: 2s;
+        /* border: 2px solid tomato; */
+        width: 500px;
+    }
+    .main_skill{
+        /* border: 2px solid black; */
+        width: 580px;
+        font-size: 25px;
+        margin-top: 10px;
+        transition: 2s;
+    }
+    .skill_experience{
+        padding-right: 10px;
+    }
+  
+
+
+    .html{
+    
+        width: 106%;
+        height: 35px;
+        padding: 20px 15px 20px 15px;
+        
+        
+    }
+    .html:hover{
+        background-color: turquoise;
+        /* color: #1d2559; */
+        border-top-left-radius: 45px;
+        width: 550px;
+        /* font-size: 25px;
+        transition: 5s; */
+    }
+    .css{
+        width: 106%;
+        height: 35px;
+        padding: 20px 15px 20px 15px;
+    }
+    .css:hover{
+        background-color: turquoise;
+        width: 550px;
+        /* color: #1d2559; */
+    }
+    .javascript{
+        width: 106%;
+        height: 35px;
+        padding: 20px 15px 20px 15px;
+    }
+    .javascript:hover{
+        background-color: turquoise;
+        width: 550px;
+        /* color: #1d2559; */
+    }
+    .node_js{
+        width: 106%;
+        height: 35px;
+        padding: 20px 15px 20px 15px;
+    }
+    .node_js:hover{
+        background-color: turquoise;
+        width: 550px;
+        /* color: #1d2559; */
+    }
+    .ui_ux{
+        width: 106%;
+        height: 35px;
+        padding: 20px 15px 20px 15px;
+        
+    }
+    .ui_ux:hover{
+        background-color: turquoise;
+        width: 550px;
+        /* color: black; */
+        border-bottom-left-radius: 45px;
+    }
+   
+
+    
+}
+
+
+
+@media only screen and (max-width:700px){
+    html,body{
+        scroll-behavior: smooth;
+    }
+    .main_container{
+        /* border: 2px solid red; */
+        width: 122%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+
+    }
+    .right_container{
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 100px;
+        padding-top: 0px;
+        border-left: 2px solid turquoise;
+        border-right: 2px solid turquoise;
+        border-top: none;
+        border-bottom: none;
+        border-radius: 50px;
+        width: 54%;
+        height: 360px;
+        /* border: 2px solid red; */
+    }
+    .left_container{
+        /* border: 2px solid pink; */
+        padding:0px 0px 0px 0px;
+        width: 80%;
+        margin-left: 20px;
+        font-size: 15px;
+    }
+    .nav_main{
+        /* border: 2px solid black; */
+        padding-left: 20px;
+        display: flex;
+        flex-direction: row;
+        
+        
+    }
+    .pamorg{
+        padding-top: 8px;
+        /* border: 2px solid red; */
+        width: 120px;
+        height: 50px;
+       
+    }
+    
+    .Pam{
+        
+        /* margin-top: 15px ; */
+        /* margin-right: 600px; */
+        margin-left: 2px;
+        font-size: 25px;
+        border-bottom: 2px solid white; 
+        transition: 2s;
+        
+    }
+    .org{
+         border-top: 2px solid white;
+        border-right: none;
+        border-left: none;
+        color: turquoise;
+        
+    }
+    li{ 
+    
+        float: left;
+        /* border: 2px solid white; */
+        /* width: 44px; */
+        height: 40px;
+        font-size: 12px;
+        
+        
+    }
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 16px 7px 16px 7px;
+        text-decoration: none;
+        
+        /* border-right: 2px solid turquoise; */
+        /* height: 10px; */
+    }
+    .list_div{
+        /* border: 2px solid turquoise; */
+        padding-right: 100px;
+        display: flex;
+        flex-direction: row;
+        width: 125px;
+                
+    }
+    li a:hover{
+        background-color: turquoise;
+        height: 4px;
+    }
+    .my_skills{
+
+        color: white;
+        border: 2px solid turquoise;
+        border-radius: 50px;          
+        width: 100px;
+        height: 10px;
+        display: flex;
+        padding: 15px 5px 18px 15px;
+        margin-bottom: 8px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 17px;
+        font-style: italic;
+        box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.708), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            
+    }
+    .skill_intro{
+        font-size: 12px;
+        transition: 2s;
+        /* border: 2px solid tomato; */
+        width: 380px;
+    }
+    .main_skill{
+        /* border: 2px solid black; */
+        width: 340px;
+        font-size: 14px;
+        margin-top: 10px;
+        transition: 2s;
+    }
+    .skill_experience{
+        /* border: 2px solid white; */
+        border-right: 2px solid turquoise;
+        padding-right: 30px;
+        padding-left: 10px;
+        width:70px;
+        border-top: 1px solid turquoise;
+        border-bottom: 1px solid turquoise;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        /* border-top-left-radius: 40px;
+        border-bottom-left-radius: 40px; */
+        
+    
+    }
+    
+    .skill_project{
+        /* border: 2px solid purple; */
+        border-top: 1px solid turquoise;
+        border-bottom: 1px solid turquoise;
+        padding:20px 5px 20px 10px ;
+        width: 100px;
+        
+        
+    }
+    
+    
+    .skill_companies{
+        /* border: 2px solid turquoise; */
+        width: 100px;
+        border-left: 2px solid turquoise;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-top: 1px solid turquoise;
+        border-bottom: 1px solid turquoise;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        /* border-top-right-radius: 40px;
+        border-bottom-right-radius: 40px; */
+        
+    }
+
+    .html{
+    
+        width: 106%;
+        height: 35px;
+        padding: 20px 15px 20px 15px;
+        
+        
+    }
+    .html:hover{
+        background-color: transparent;
+        color: black;
+        width: 400px;
+        border-top-left-radius: 45px;
+        /* font-size: 25px;
+        transition: 5s; */
+    }
+    .css{
+        width: 106%;
+        height: 35px;
+        padding: 20px 15px 20px 15px;
+    }
+    .css:hover{
+        background-color: transparent;
+        color: black;
+        width: 400px;
+        /* color: #1d2559; */
+    }
+    .javascript{
+        width: 106%;
+        height: 35px;
+        padding: 20px 15px 20px 15px;
+    }
+    .javascript:hover{
+        background-color: transparent;
+        color: black;
+        width: 400px;
+        /* color: #1d2559; */
+    }
+    .node_js{
+        width: 106%;
+        height: 35px;
+        padding: 20px 15px 20px 15px;
+    }
+    .node_js:hover{
+        background-color: transparent;
+        color: black;
+        width: 400px;
+        /* color: #1d2559; */
+    }
+    .ui_ux{
+        width: 106%;
+        height: 35px;
+        padding: 20px 15px 20px 15px;
+        
+    }
+    .ui_ux:hover{
+        background-color: transparent;
+        color: black;
+        width: 400px;
+        /* color: black; */
+        border-bottom-left-radius: 45px;
+    }
+
+}

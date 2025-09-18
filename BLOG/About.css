@@ -1,0 +1,580 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+html,body{
+    scroll-behavior: smooth;
+}
+body{
+    /* background:linear-gradient(100deg,#1d2559,#175cb0); */
+    background:linear-gradient(100deg,#1d2559,#1b7df5);
+    background-attachment: fixed;
+
+}
+nav{
+color:  white;
+justify-self: end;
+
+
+}
+.nav_main{
+    padding-left: 85px;
+    display: flex;
+    justify-content:space-between ;
+    /* border: 2px solid white; */
+}
+.list_div{
+    /* border: 2px solid pink; */
+    padding-right: 90px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    
+    
+}
+ul{ 
+    /* justify-content: flex-end;
+    display: flex;
+    text-decoration: none; */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+li{ 
+    /* margin: 20px;
+    margin-right: 35px;
+    text-decoration: none;
+    padding-right: 20px;
+    border-right: 2px solid turquoise;
+    */
+    float: left;
+    /* border-right: 2px solid turquoise; */
+    /* padding-left: 30px; */
+    width: 100px;
+    /* border: 2px solid white; */
+    
+    
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* border-right: 2px solid turquoise; */
+    /* height: 10px; */
+}
+
+li a:hover {
+    background-color: turquoise;
+    transition: 1s;
+    
+    
+}
+
+/* li::marker{
+content: none;
+} */
+.pamorg{
+    padding-top: 8px;
+    /* border: 2px solid red; */
+    width: 50%;
+   
+}
+
+.Pam{
+    /* margin-top: 15px ; */
+    margin-right: 600px;
+    font-size: 35px;
+    border-bottom: 2px solid white; 
+    text-shadow: 1px 1px 1px turquoise;
+    
+}
+.org{
+     border-top: 2px solid white;
+    border-right: none;
+    border-left: none;
+    color: turquoise;
+    text-shadow: 1px 1px 1px white;
+    
+}
+.main_container{
+    /* border: 2px solid tomato; */
+    display: flex;
+    height: 30%;
+    margin: 20px;
+    margin-top: 90px;
+    margin: 65px;
+    padding-right: 50px;
+    width: 89%;
+}
+.left_container{
+/* border: 2px solid pink; */
+height: 50%;
+width: 57%;
+margin:15px 65px 150px 15px ;
+/* border-right: 2px solid turquoise;
+border-radius: 50px; */
+text-align: justify;
+}
+.right_container{
+/* border: 2px solid green; */
+height: 50%;
+width: 43%;
+border-left: 2px solid turquoise;
+border-radius: 50px;
+/* padding-top: 10px;
+padding-bottom: 20px; */
+
+
+}
+
+.who_am_i{
+    color: white;
+    border: 2px solid turquoise;
+    border-radius: 50px;
+    width: 120px;
+    height: 5px;
+    padding: 16px 17px 30px 40px;
+    margin-bottom: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.708), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.biography{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+color: white;
+margin-top: 20px;
+}
+.small_pam{
+    border-bottom: 1px solid white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.small_org{
+color: turquoise;
+border-top: 1px solid white;
+border-bottom: 1px solid white;
+font-family: 'Times New Roman', Times, serif;
+font-size: 20px;
+
+}
+
+/* Projects */
+.My_Projects{
+    color: white;
+    border: 2px solid turquoise;
+    border-radius: 50px;
+    width: 120px;
+    height: 5px;
+    padding: 16px 17px 30px 40px;
+    margin-bottom: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.708), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 380px;
+    margin-top: 8px;
+    
+}
+
+.Project_main{
+margin:50px 8px 50px 14px;
+display: flex;
+
+}
+.Project_one{
+    height: 150px;
+    width: 162px;
+    margin-top: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 2px solid turquoise;
+}
+.Project_one:hover{
+    height: 160px;
+    width: 170px;
+    transition: 1s;
+}
+.Project_two{
+    height: 200px;
+    width: 220px;
+    border-radius: 20px;
+    border: 2px solid turquoise;
+   
+}
+.Project_two:hover{
+    height: 210px;
+    width: 230px;
+    transition: 2s;
+}
+.Project_three{
+    height: 150px;
+    width: 162px;
+    margin-top: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 2px solid turquoise;
+}
+.Project_three:hover{
+    height: 160px;
+    width: 170px;
+    transition: 1s;
+}
+
+
+
+/* 
+===================responsiveness====================================== */
+
+
+@media only screen and (max-width:1265px) {
+    .nav_main{
+        /* border: 2px solid black; */
+        padding-left: 5px;
+        display: flex;
+        flex-direction: row;
+        
+        
+    }
+    .list_div{
+        /* border: 2px solid turquoise; */
+        padding-right: 63px;
+        display: flex;
+        flex-direction: row;
+        
+        
+        
+        
+    }
+    
+
+    li{ 
+    
+        float: left;
+        width: 100px;
+        /* border: 2px solid white; */
+        width: 63px;
+        height: 40px;
+        font-size: 12px;
+        transition: 2s;
+        
+        
+    }
+    .Pam{
+        /* margin-top: 15px ; */
+        margin-left: 75px;
+        font-size: 30px;
+        border-bottom: 2px solid white; 
+        transition: 2s;
+        
+    }
+    .who_am_i{
+        height:0px ;
+        width:120px ;
+        padding: 16px 15px 36px 32px;
+        transition: 2s;
+        
+    }
+    .main_container{
+        /* border: 2px solid tomato; */
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: 2px;
+    }
+   
+    .left_container{
+        /* border: 2px solid pink; */
+        margin-top: 6.5%;
+        transition: 2s;
+        width: 106%;
+        padding-right: 0%;
+        margin-left: 70px;
+        padding-bottom: 50px;
+        margin-bottom: 0%;
+
+    }
+    .right_container{
+        /* border: 2px solid orange; */
+        width: 90%;
+        height: 450px;
+        /* padding-right: 100px; */
+        border-left: 2px solid turquoise;
+        /* border-right: 2px solid turquoise; */
+        /* padding-right: 20px; */
+        padding: 20px 0px 20px 0px  ;
+        margin-left: 48px;
+    }
+
+    /* Projects */
+    .My_Projects{
+        margin-left: 20px;
+        
+        
+}
+
+    .Project_main{
+        height: 300px;
+        width: 600px;
+        margin:50px 8px 50px 14px;
+        /* border: 2px solid black; */
+        display: flex;
+        padding: 50px 0px 50px 0px;
+        
+        
+        
+        }
+        .Project_one{
+            height: 150px;
+            width: 180px;
+            margin-top: 20px;
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+            border: 2px solid turquoise;
+            transition: 2s;
+            margin-top: 30px;
+        }
+        .Project_one:hover{
+            height: 160px;
+            width: 190px;
+            transition: 1s;
+        }
+        .Project_two{
+            height: 210px;
+            width: 220px;
+            border-radius: 20px;
+            border: 2px solid turquoise;
+            transition: 2s;
+        
+           
+        }
+        .Project_two:hover{
+            height: 215px;
+            width: 230px;
+            transition: 1s;
+        }
+        .Project_three{
+            height: 150px;
+            width: 180px;
+            margin-top: 20px;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+            border: 2px solid turquoise;
+            margin-top: 30px;
+            transition: 2s;
+        }
+        .Project_three:hover{
+            height: 160px;
+            width: 190px;
+            transition: 1s;
+            
+        }
+        
+    
+}
+
+@media only screen and (max-width:700px){
+    html,body{
+        scroll-behavior: smooth;
+    }
+    .main_container{
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+
+    }
+    .right_container{
+        margin-left: 10px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        padding-left: 0px;
+        padding-right: 75px;
+        padding-top: 30px;
+        border-left: 2px solid turquoise;
+        border-right: 2px solid turquoise;
+        border-top: none;
+        border-bottom: none;
+        border-radius: 50px;
+        width: 92%;
+        height: 380px;
+    }
+    .left_container{
+        /* border: 2px solid pink; */
+        padding:0px 0px 0px 0px;
+        width: 113%;
+        margin-left: 20px;
+        font-size: 15px;
+    }
+    .nav_main{
+        /* border: 2px solid black; */
+        padding-left: 20px;
+        display: flex;
+        flex-direction: row;
+        
+        
+    }
+    .pamorg{
+        padding-top: 8px;
+        /* border: 2px solid red; */
+        width: 120px;
+        height: 50px;
+       
+    }
+    
+    .Pam{
+        
+        /* margin-top: 15px ; */
+        /* margin-right: 600px; */
+        margin-left: 2px;
+        font-size: 25px;
+        border-bottom: 2px solid white; 
+        transition: 2s;
+        
+    }
+    .org{
+         border-top: 2px solid white;
+        border-right: none;
+        border-left: none;
+        color: turquoise;
+        
+    }
+    li{ 
+    
+        float: left;
+        /* border: 2px solid white; */
+        /* width: 44px; */
+        height: 40px;
+        font-size: 12px;
+        
+        
+    }
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 16px 7px 16px 7px;
+        text-decoration: none;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+        /* border-right: 2px solid turquoise; */
+        /* height: 10px; */
+    }
+    .list_div{
+        /* border: 2px solid turquoise; */
+        padding-right: 100px;
+        display: flex;
+        flex-direction: row;
+        width: 125px;
+                
+    }
+    li a:hover{
+        background-color: turquoise;
+        height: 4px;
+    }
+    .who_am_i{
+
+        color: white;
+        border: 2px solid turquoise;
+        border-radius: 50px;          
+        width: 100px;
+        height: 10px;
+        display: flex;
+        padding: 15px 5px 16px 15px;
+        margin-bottom: 8px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 17px;
+        font-style: italic;
+        box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.708), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            
+    }
+    
+    .My_Projects{
+        /* border: 2px solid black; */
+        color: white;
+        border: 2px solid turquoise;
+        border-radius: 50px;          
+        width: 100px;
+        height: 10px;
+        display: flex;
+        padding: 15px 7px 18px 15px;
+        margin-bottom: 8px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 17px;
+        font-style: italic;
+        box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.708), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            
+        margin-left: 15px;
+    }
+
+    .Project_main{
+        height: 200px;
+        width: 100px;
+        margin:50px 8px 50px 10px;
+        /* border: 2px solid black; */
+        display: flex;
+        padding: 50px 0px 50px 0px;
+        
+        
+        
+        }
+        .Project_one{
+            height: 106px;
+            width: 100px;
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+            border: 2px solid turquoise;
+            transition: 2s;
+            margin-top: 20px;
+        }
+        .Project_one:hover{
+            height: 113px;
+            width: 110px;
+            transition: 1s;
+        }
+        .Project_two{
+            height: 150px;
+            width: 120px;
+            border-radius: 20px;
+            border: 2px solid turquoise;
+            transition: 2s;
+        
+           
+        }
+        .Project_two:hover{
+            height: 163px;
+            width: 130px;
+            transition: 1s;
+        }
+        .Project_three{
+            height: 106px;
+            width: 100px;
+            margin-top: 20px;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+            border: 2px solid turquoise;
+            margin-top: 20px;
+            transition: 2s;
+        }
+        .Project_three:hover{
+            height: 113px;
+            width: 110px;
+            transition: 1s;
+            
+        }
+    
+    
+}
+

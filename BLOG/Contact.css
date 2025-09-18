@@ -1,0 +1,638 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+html,body{
+    scroll-behavior: smooth;
+}
+body{
+    /* background:linear-gradient(100deg,#1d2559,#175cb0); */
+    background:linear-gradient(100deg,#1d2559,#1b7df5);
+    background-attachment: fixed;
+
+}
+nav{
+color:  white;
+justify-self: end;
+
+
+}
+.nav_main{
+    padding-left: 85px;
+    display: flex;
+    justify-content:space-between ;
+    /* border: 2px solid white; */
+}
+.list_div{
+    /* border: 2px solid pink; */
+    padding-right: 90px;
+    
+    
+}
+ul{ 
+    /* justify-content: flex-end;
+    display: flex;
+    text-decoration: none; */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+li{ 
+    /* margin: 20px;
+    margin-right: 35px;
+    text-decoration: none;
+    padding-right: 20px;
+    border-right: 2px solid turquoise;
+    */
+    float: left;
+    /* border-right: 2px solid turquoise; */
+    /* padding-left: 30px; */
+    width: 100px;
+    /* border: 2px solid white; */
+    
+    
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* border-right: 2px solid turquoise; */
+    /* height: 10px; */
+}
+
+li a:hover {
+    background-color: turquoise;
+    /* font-size: 16px; */
+    /* border: 2px solid turquoise; */
+    /* border-radius: 10px; */
+    transition: 1s;
+      
+}
+
+/* li::marker{
+content: none;
+} */
+.pamorg{
+    padding-top: 8px;
+    /* border: 2px solid red; */
+    width: 50%;
+   
+}
+
+.Pam{
+    /* margin-top: 15px ; */
+    margin-right: 600px;
+    font-size: 35px;
+    border-bottom: 2px solid white; 
+    text-shadow: 1px 1px 1px turquoise;
+    
+}
+.org{
+     border-top: 2px solid white;
+    border-right: none;
+    border-left: none;
+    color: turquoise;
+    text-shadow: 1px 1px 1px white;
+    
+}
+.main_container{
+    /* border: 2px solid tomato; */
+    display: flex;
+    margin-top: 70px;
+}
+.left_container{
+    /* border: 2px solid green; */
+    width: 52%;
+    padding-left: 85px;
+    /* padding-top: 15px; */
+    height: 50%;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* font-family: cursive; */
+    font-size: 16px;
+    line-height: 20px;
+    
+
+}
+video{
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
+    border: 2px solid turquoise;
+}
+video:hover{
+    height: 32px;
+    /* transition: 1s; */
+}
+.right_container{
+    
+    width: 44%;
+    height: 310px;
+    padding-left: 35px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-left: 2px solid turquoise;
+    border-radius: 40px;
+    line-height: 25px;
+    
+}
+
+.contact_me{
+    color: white;
+    border: 2px solid turquoise;
+    border-radius: 50px;
+    width: 150px;
+    height: 5px;
+    padding: 18px 0px 28px 25px;
+    margin-bottom: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.708), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+
+
+.phone_no, .facebook, .whatsapp, .instagram, .email, .address{
+    color: turquoise;
+    /* font-family: cursive; */
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+}
+
+form{
+    /* display: flex; */
+    /* flex-direction: column; */
+    max-width:489px;
+
+    
+}
+
+form input{
+   height: 30px;
+   width: 100%;
+   margin-right: 10px;
+   padding: 5px;
+   
+    
+}
+.top_inputs{
+    display: flex;
+    margin: 15px 20px 10px 20px;
+}
+.bottom_inputs{
+    display: flex;
+     margin: 0px 20px 10px 20px;
+}
+form textarea{
+    margin-left: 20px;
+    width: 87.5%;
+    height: 120px;
+    padding: 5px;
+}
+button{
+    margin-left: 20px;
+    height: 30px;
+    width: 90%;
+}
+
+/* textarea{
+    resize:horizontal;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-size: 15px;
+    width: 30rem;
+    height: 13rem;
+    margin: 20px 0px 10px 0px;
+    line-height: 15px;
+    padding-left: 5px;
+    border-radius: 10px;
+
+} */
+
+#textarea_count{
+    margin-left: 15px;
+}
+/* button{
+width: 80px;
+height: 20px;
+border-radius: 5px;
+border-width: 1px;
+
+}
+button:hover{
+    
+    color: white;
+    background-color: rgb(102, 188, 179);
+} */
+.footer_icons{
+    /* border: 2px solid red; */
+    height: 50px;
+    margin-bottom: 12px;
+    justify-self: s;
+
+}
+/* 
+input{
+    border: 2px solid black;
+    padding: 0px 10px 0px 10px;
+} */
+.fb{
+    height:30px;
+    width:30px;
+    border-radius: 7px;
+    margin-top: 10px;
+    margin-right: 5px;
+    
+}
+.fb:hover{
+    height: 33px;
+    width: 33px;
+    background-color: white;
+    border-radius: 50%;
+    
+}
+.whtsp{
+    height:30px;
+    width:30px;
+    border-radius: 7px;
+    margin-top: 10px;
+    margin-right: 5px;
+    
+}
+.whtsp:hover{
+    height: 33px;
+    width: 33px;
+    background-color: white;
+    border-radius: 50%;
+    
+}
+.ig{
+    height:30px;
+    width:30px;
+    border-radius: 7px;
+    margin-top: 10px;
+    margin-right: 5px;
+
+}
+.ig:hover{
+    height: 33px;
+    width: 33px;
+    background-color: white;
+    border-radius: 50%;
+    
+}
+.vid{
+    height:30px;
+    width:30px;
+    border-radius: 7px;
+    margin-top: 10px;
+    margin-right: 5px;
+    
+}
+.vid:hover{
+    height: 33px;
+    width: 33px;
+    
+    
+}
+.ggle{
+    height:30px;
+    width:30px;
+    border-radius: 7px;
+    margin-top: 10px;
+    
+}
+.ggle:hover{
+    height: 33px;
+    width: 33px;
+    background-color: white;
+    border-radius: 50%;
+    
+}
+
+.programmer_gif{
+    border-radius: 50%;
+    background-color: black;
+}
+.copyright_main{
+    display: flex;
+    justify-content: center;
+    /* padding-left: 44%; */
+    /* border: 2px solid red; */
+    height: 42px;
+}
+.copyright_text{
+    padding-top: 18px;
+    padding-right: 10px;
+}
+.copyright_gif{
+    padding-top: 5px;
+    height: 40px;
+}
+.copyright_gif:hover{
+    height: 42px;
+}
+footer{
+    color: white;
+    background-color: rgb(0, 191, 172);
+    padding-top: 5px;
+    margin-top: 31px;
+    height: 140px ;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+
+
+
+
+
+/* 
+===================responsiveness====================================== */
+
+
+@media only screen and (max-width:1265px) {
+    .nav_main{
+        /* border: 2px solid black; */
+        padding-left: 5px;
+        display: flex;
+        flex-direction: row;
+        
+        
+    }
+    .list_div{
+        /* border: 2px solid turquoise; */
+        padding-right: 63px;
+        display: flex;
+        flex-direction: row;
+        
+        
+        
+        
+    }
+    
+
+    li{ 
+    
+        float: left;
+        width: 100px;
+        /* border: 2px solid white; */
+        width: 63px;
+        height: 40px;
+        font-size: 12px;
+        transition: 2s;
+        
+        
+    }
+    .Pam{
+        /* margin-top: 15px ; */
+        margin-left: 75px;
+        font-size: 30px;
+        border-bottom: 2px solid white; 
+        transition: 2s;
+        
+    }
+    
+    .main_container{
+        /* border: 2px solid tomato; */
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: 2px;
+    }
+   
+    .left_container{
+        /* border: 2px solid pink; */
+        margin-top: 4.5%;
+        transition: 2s;
+        width: 106%;
+        padding-right: 0%;
+        padding-left: 0%;
+        margin-left: 70px;
+        padding-bottom: 50px;
+        margin-bottom: 0%;
+
+    }
+    .right_container{
+        /* border: 2px solid orange; */
+        width: 90%;
+        height: 350px;
+        /* padding-right: 100px; */
+        border-left: 2px solid turquoise;
+        /* border-right: 2px solid turquoise; */
+        /* padding-right: 20px; */
+        padding: 30px 0px 0px 15px  ;
+        margin-left: 55px;
+        margin-bottom: 30px;
+    }
+    .contact_me{
+        height:5px ;
+        width:148px ;
+        padding: 15px 0px 30px 20px;
+        transition: 2s;
+        
+    }
+    /* textarea{
+        resize:none;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+        font-size: 15px;
+        width: 35rem;
+        height: 13rem;
+        margin: 20px 0px 10px 0px;
+        line-height: 15px;
+        padding-left: 5px;
+        border-radius: 10px;
+        transition: 2s;
+    
+    } */
+    
+    
+
+
+
+
+}
+
+
+
+@media only screen and (max-width:700px){
+    html,body{
+        scroll-behavior: smooth;
+    }
+    
+    .nav_main{
+        /* border: 2px solid black; */
+        padding-left: 20px;
+        display: flex;
+        flex-direction: row;
+        
+        
+    }
+    .pamorg{
+        padding-top: 8px;
+        /* border: 2px solid red; */
+        width: 120px;
+        height: 50px;
+       
+    }
+    
+    .Pam{
+        
+        /* margin-top: 15px ; */
+        /* margin-right: 600px; */
+        margin-left: 2px;
+        font-size: 25px;
+        border-bottom: 2px solid white; 
+        transition: 2s;
+        
+    }
+    .org{
+         border-top: 2px solid white;
+        border-right: none;
+        border-left: none;
+        color: turquoise;
+        
+    }
+    li{ 
+    
+        float: left;
+        /* border: 2px solid white; */
+        /* width: 44px; */
+        height: 40px;
+        font-size: 12px;
+        
+        
+    }
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 16px 7px 16px 7px;
+        text-decoration: none;
+        
+        /* border-right: 2px solid turquoise; */
+        /* height: 10px; */
+    }
+    .list_div{
+        /* border: 2px solid turquoise; */
+        padding-right: 100px;
+        display: flex;
+        flex-direction: row;
+        width: 125px;
+                
+    }
+    li a:hover{
+        background-color: turquoise;
+        height: 4px;
+    }
+
+    .main_container{
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+
+    }
+    
+    .left_container{
+        /* border: 2px solid pink; */
+        padding:0px 0px 0px 0px;
+        width: 117%;
+        margin-left: 20px;
+        font-size: 14px;
+        transition: 2s;
+    }
+    .right_container{
+    
+        margin-left: 15px;
+        margin-top: 40px;
+        margin-bottom: 0px;
+        padding-left: 15px;
+        padding-right: 60px;
+        padding-top: 30px;
+        border-left: 2px solid turquoise;
+        border-right: 2px solid turquoise;
+        border-top: none;
+        border-bottom: none;
+        border-radius: 50px;
+        width: 90%;
+        height: 420px;
+        font-size: 14PX;
+        transition: 2s;
+    }
+    .contact_me{
+
+        color: white;
+        border: 2px solid turquoise;
+        border-radius: 50px;          
+        width: 120px;
+        height: 10px;
+        display: flex;
+        padding: 15px 5px 18px 15px;
+        margin-bottom: 8px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 17px;
+        font-style: italic;
+        box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.708), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            
+    }
+    textarea{
+        resize:none;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+        font-size: 15px;
+        width: 19rem;
+        height: 17rem;
+        margin: 20px 0px 10px 0px;
+        line-height: 15px;
+        padding-left: 5px;
+        border-radius: 10px;
+        transition: 2s;
+    
+    }
+    #textarea_count{
+        font-size: 13px;
+    }
+
+    form{
+    /* display: flex; */
+    /* flex-direction: column; */
+    max-width:220px;
+
+    
+}
+
+form input{
+   height: 15px;
+   width: 120px;
+   margin-right: 10px;
+   padding: 5px;
+   
+    
+}
+form textarea{
+    margin-left: 20px;
+    width: 121%;
+    height: 120px;
+    padding: 5px;
+}
+     
+button{
+    width: 280px;
+}   
+
+
+
+}
